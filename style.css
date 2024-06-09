@@ -59,6 +59,10 @@
     height: 64px;
 }
 
+#react {
+    width: auto;
+}
+
 
 .wrapper {
     display: inline-flex;
