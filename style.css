@@ -11,6 +11,10 @@
     color: #fff;
 }
 
+a {
+  border-radius: 50%;
+}
+
 .body {
     height: 100vh;
     background-color: #000;
@@ -67,6 +71,7 @@
     display: inline-flex;
     list-style: none;
     margin-top: -20px;
+    gap: 20px;
 }
   
   .wrapper .icon {
@@ -74,7 +79,6 @@
     background: #ffffff;
     border-radius: 50%;
     padding: 15px;
-    margin: 10px;
     width: 50px;
     height: 50px;
     font-size: 18px;
