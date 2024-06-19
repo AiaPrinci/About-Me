@@ -181,25 +181,40 @@ a {
 
 
 @media only screen and (max-width: 769px) {
+
+  .info {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
     .img {
         width: 200px;
         height: 200px;
     }
 
     .info h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
+    .image-container {
+      display: flex;
+      gap: 10px;
+  }
+
     .image-container img {
-        width: 32px;
-        height: 32px;
+        width: 48px;
+        height: 48px;
     }
 
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         list-style: none;
-        margin-top: -20px;
+        margin-top: 10px;
     }
 
     .wrapper .icon {
@@ -207,7 +222,6 @@ a {
         background: #ffffff;
         border-radius: 50%;
         padding: 15px;
-        margin: 10px;
         width: 50px;
         height: 50px;
         font-size: 18px;
