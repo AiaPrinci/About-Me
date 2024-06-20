@@ -51,7 +51,10 @@ a {
     background-image: url('./Image/icon.png');
     background-size: cover;
     background-position: center;
-    box-shadow: 5px 5px 10px #ffffff70;
+    box-shadow: -10px -10px 20px #0000009f inset,
+                5px 5px 10px #b3b3b370,
+                5px 5px 10px #fff inset
+                ;
 }
 
 .image-container {
