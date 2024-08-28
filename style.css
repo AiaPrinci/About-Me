@@ -15,6 +15,11 @@ a {
 border-radius: 50%;
 }
 
+::selection {
+    background-color: #fff;
+    color: #000;
+}
+
 .body {
   height: 100vh;
   background-color: #000;
@@ -89,13 +94,18 @@ border-radius: 50%;
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-image: url('./Image/icon.png');
+  background-image: url('./Image/Screen\ Shot\ 2016-06-28\ at\ 12.55.31\ PM.png');
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.img:hover {
   box-shadow: -10px -10px 20px #0000009f inset,
-              5px 5px 10px #b3b3b370,
-              5px 5px 10px #fff inset
-              ;
+  5px 5px 10px #b3b3b370,
+  5px 5px 10px #ffffff inset
+  ;
 }
 
 .img-dark {
